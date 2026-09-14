@@ -36,7 +36,7 @@ def valid_event_kwargs(**overrides):
 def test_valid_event_passes():
     event = TelemetryEvent(**valid_event_kwargs())
     assert event.satellite_id == "SAT-001"
-    assert event.schema_version == "1.0"
+    assert event.schema_version == "2.0"
 
 
 def test_latitude_out_of_range_rejected():
