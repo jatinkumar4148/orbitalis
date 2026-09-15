@@ -13,3 +13,8 @@ data/*.jsonl
 .env
 
 m14_test_record.json
+
+# Terraform
+infrastructure/terraform/.terraform/
+infrastructure/terraform/*.tfstate
+infrastructure/terraform/*.tfstate.*
