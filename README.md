@@ -143,7 +143,7 @@ orbitalis/
 
 ---
 
-## Module 
+## Modules
 
 | # | Module | Summary |
 |---|--------|---------|
