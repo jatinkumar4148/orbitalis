@@ -143,7 +143,7 @@ orbitalis/
 
 ---
 
-## ✅ Module Status — all 18 complete
+## Module 
 
 | # | Module | Summary |
 |---|--------|---------|
