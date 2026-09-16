@@ -16,32 +16,9 @@ Orbitalis simulates a fleet of satellites, streams their telemetry through Kines
 ## 📐 Architecture
 
 ```
-Satellite Simulator (Python)
-        │
-Amazon Kinesis Data Streams  (on-demand, KMS-encrypted)
-        │
-   ┌────┴─────┐
-   ▼          ▼
-Kinesis     AWS Glue / Spark Structured Streaming (checkpointed)
-Firehose      Validate → Watermark → Dedup
-   │             │
-   ▼             ▼
-S3 Bronze    S3 Silver / Rejected / Late
-(raw,             │
-partitioned)      ▼
-             Apache Iceberg  (Silver + Gold tables)
-                  │
-        ┌─────────┴─────────┐
-        ▼                   ▼
-   Gold Tables         Amazon Athena
-   (health/anomalies/       │
-    orbit summary)          ▼
-        └──────────► Streamlit Mission Control Dashboard
+![Uploading Architechture of Orbitalis.png…]()
 
-Cross-cutting:  CloudWatch (metrics + alarms) · IAM (least-privilege)
-                KMS (encryption) · Terraform (IaC) · GitHub Actions (CI/CD)
 ```
-<img width="2752" height="1536" alt="Gemini_Generated_Image_o27ql5o27ql5o27q" src="https://github.com/user-attachments/assets/72fa0991-1c24-4794-9de8-e41842f05b4f" />
 
 ---
 
