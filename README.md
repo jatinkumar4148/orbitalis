@@ -41,6 +41,7 @@ partitioned)      ▼
 Cross-cutting:  CloudWatch (metrics + alarms) · IAM (least-privilege)
                 KMS (encryption) · Terraform (IaC) · GitHub Actions (CI/CD)
 ```
+<img width="2752" height="1536" alt="Gemini_Generated_Image_o27ql5o27ql5o27q" src="https://github.com/user-attachments/assets/72fa0991-1c24-4794-9de8-e41842f05b4f" />
 
 ---
 
