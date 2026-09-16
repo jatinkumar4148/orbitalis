@@ -15,11 +15,8 @@ Orbitalis simulates a fleet of satellites, streams their telemetry through Kines
 
 ## 📐 Architecture
 
-```
+
 <img width="2752" height="1536" alt="Architechture of Orbitalis" src="https://github.com/user-attachments/assets/c2448c1d-bba3-4b44-95f8-efbf778c405d" />
-
-
-```
 
 ---
 
