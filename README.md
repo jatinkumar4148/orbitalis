@@ -13,6 +13,12 @@ Orbitalis simulates a fleet of satellites, streams their telemetry through Kines
 
 ---
 
+## Overview
+
+
+<img width="1672" height="941" alt="Architechture" src="https://github.com/user-attachments/assets/dbdc1943-b890-499c-bb07-08a74697f9bb" />
+
+
 ## 📐 Architecture
 
 
@@ -145,6 +151,19 @@ orbitalis/
 Full build log with every design decision, code walkthrough, and bug encountered is documented in [`docs/decisions.md`](docs/decisions.md).
 
 ---
+
+## Final Output
+
+<img width="1366" height="768" alt="Screenshot (1048)" src="https://github.com/user-attachments/assets/e9a6883f-483b-4cba-baf6-3f53628642df" />
+<img width="1366" height="768" alt="Screenshot (1047)" src="https://github.com/user-attachments/assets/589a3c56-e7b7-49d0-99fc-cad8a35f9f84" />
+<img width="1366" height="768" alt="Screenshot (1046)" src="https://github.com/user-attachments/assets/6af0a3cc-5ae7-4c8d-8bf8-5862d4ae45cf" />
+<img width="1366" height="768" alt="Screenshot (1045)" src="https://github.com/user-attachments/assets/266be6ea-3082-43f2-9cf0-c1951a023606" />
+<img width="1366" height="768" alt="Screenshot (1044)" src="https://github.com/user-attachments/assets/f74b62fb-68a8-42d7-8a91-6f791fa4a130" />
+<img width="1366" height="768" alt="Screenshot (1043)" src="https://github.com/user-attachments/assets/1fe31cda-3799-42c0-81d6-38d24d8e1527" />
+<img width="1366" height="768" alt="Screenshot (1051)" src="https://github.com/user-attachments/assets/7fc1ad80-0bb3-44b3-b459-88d1d31f81f7" />
+<img width="1366" height="768" alt="Screenshot (1050)" src="https://github.com/user-attachments/assets/a476de2a-8c1d-4223-8468-c18e04ffc017" />
+<img width="1366" height="768" alt="Screenshot (1049)" src="https://github.com/user-attachments/assets/18e25914-4c00-4f94-aee0-17faeef20e9a" />
+
 
 ## 📄 License
 
